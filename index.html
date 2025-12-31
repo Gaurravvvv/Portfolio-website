@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurravv - Portfolio</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Gaurav's Portfolio </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <!-- EDIT: Replace with your name -->
+                    <h1 class="display-4 fw-bold mb-4">Hi, I'm <span class="text-primary">Gaurav Vibhandik </span></h1>
+                    <!-- EDIT: Replace with your intro text -->
+                    <p class="lead mb-4">A passionate student and aspiring developer. Welcome to my portfolio!</p>
+                    <a href="#contact" class="btn btn-primary btn-lg me-2">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline-primary btn-lg">View My Work</a>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <!-- EDIT: Replace 'assets/profile.jpg' with your profile photo path -->
+                    <img src="assets/profile.jpg" alt="Profile Photo" class="img-fluid rounded-circle profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">About Me</h2>
+                    <p class="text-muted">Get to know me better</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- EDIT: Replace with your about me content -->
+                    <p class="lead">
+                        Hello! I'm a student focused on AI, data science, and coding.
+                        I enjoy building practical projects that solve real problems daily consistently.
+                    </p>
+                    <p>
+                        Currently pursuing my degree, I keep learning useful technologies and sharpening my skills.
+                        I like building projects that push me forward and help me grow as a developer.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, reading tech blogs, 
+                        or working on personal projects that interest me.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- EDIT: Add your interests, education, or other details here -->
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-mortarboard-fill text-primary fs-1 mb-3"></i>
+                                    <h5>Education</h5>
+                                    <!-- EDIT: Add your education details -->
+                                    <p class="text-muted">Engineering Student /TE AI&DS </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-heart-fill text-primary fs-1 mb-3"></i>
+                                    <h5>Interests</h5>
+                                    <!-- EDIT: Add your interests -->
+                                    <p class="text-muted">Cloud Computing , Machine Learning & DevOps</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Skills</h2>
+                    <p class="text-muted">Technologies and tools I work with</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- EDIT: Add or remove skill cards as needed -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-cloud-fill text-primary fs-1 mb-3"></i>
+                            <h5>Cloud Computing</h5>
+                            <p class="text-muted">Building and deploying scalable cloud solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-gear-fill text-primary fs-1 mb-3"></i>
+                            <h5>DevOps</h5>
+                            <p class="text-muted">Automating deployment and infrastructure management</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-cpu-fill text-primary fs-1 mb-3"></i>
+                            <h5>Machine Learning</h5>
+                            <p class="text-muted">Building intelligent systems and predictive models</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-box-seam text-primary fs-1 mb-3"></i>
+                            <h5>Docker & Kubernetes</h5>
+                            <p class="text-muted">Containerization and orchestration of applications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-diagram-2 text-primary fs-1 mb-3"></i>
+                            <h5>DSA</h5>
+                            <p class="text-muted">Data Structures and Algorithms for efficient problem solving</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card skill-card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-tools text-primary fs-1 mb-3"></i>
+                            <h5>Problem Solving</h5>
+                            <p class="text-muted">Analyzing and solving complex challenges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Projects</h2>
+                    <p class="text-muted">Some of my recent work</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- EDIT: Add your projects here. Duplicate this card structure for more projects -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card h-100">
+                        <!-- EDIT: Replace with your project image -->
+                        <img src="assets/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 1</h5>
+                            <p class="card-text">Brief description of your project. What technologies did you use? What problem does it solve?</p>
+                            <div class="mb-3">
+                                <!-- EDIT: Add technology badges -->
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                            <!-- EDIT: Add your project links -->
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="bi bi-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="bi bi-box-arrow-up-right"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card h-100">
+                        <!-- EDIT: Replace with your project image -->
+                        <img src="assets/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">Brief description of your project. What technologies did you use? What problem does it solve?</p>
+                            <div class="mb-3">
+                                <!-- EDIT: Add technology badges -->
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">JavaScript</span>
+                            </div>
+                            <!-- EDIT: Add your project links -->
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="bi bi-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="bi bi-box-arrow-up-right"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card h-100">
+                        <!-- EDIT: Replace with your project image -->
+                        <img src="assets/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">Brief description of your project. What technologies did you use? What problem does it solve?</p>
+                            <div class="mb-3">
+                                <!-- EDIT: Add technology badges -->
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-primary">CSS</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                            <!-- EDIT: Add your project links -->
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2" target="_blank">
+                                <i class="bi bi-github"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                                <i class="bi bi-box-arrow-up-right"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Get In Touch</h2>
+                    <p class="text-muted">I'd love to hear from you!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body p-5">
+                            <div class="row text-center mb-4">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <i class="bi bi-envelope-fill text-primary fs-1 mb-3"></i>
+                                    <h5>Email</h5>
+                                    <!-- EDIT: Replace with your email -->
+                                    <a href="mailto:gauravvibhandik01@gmail.com" class="text-decoration-none">gauravvibhandik01@gmail.com</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-geo-alt-fill text-primary fs-1 mb-3"></i>
+                                    <h5>Location</h5>
+                                    <!-- EDIT: Replace with your location -->
+                                    <p class="text-muted mb-0">Nashik , Maharashtra</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <h5 class="mb-4">Connect with me</h5>
+                                <div class="social-links">
+                                    <!-- EDIT: Replace # with your actual social media links -->
+                                    <a href="https://linkedin.com/in/gaurravvvv" class="social-link me-3" target="_blank" aria-label="LinkedIn">
+                                        <i class="bi bi-linkedin fs-3"></i>
+                                    </a>
+                                    <a href="https://github.com/Gaurravvvv" class="social-link me-3" target="_blank" aria-label="GitHub">
+                                        <i class="bi bi-github fs-3"></i>
+                                    </a>
+                                    <a href="https://x.com/gaurstic" class="social-link me-3" target="_blank" aria-label="Twitter">
+                                        <i class="bi bi-twitter fs-3"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/whoisgaurav.__/" class="social-link me-3" target="_blank" aria-label="Instagram">
+                                        <i class="bi bi-instagram fs-3"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; Gaurav . All rights reserved.</p>
+            <!-- EDIT: Update the year and name above -->
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
